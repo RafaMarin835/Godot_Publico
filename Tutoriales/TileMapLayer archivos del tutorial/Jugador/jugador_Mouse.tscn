@@ -1,7 +1,7 @@
 [gd_scene load_steps=25 format=3 uid="uid://b2l2w6vnjn1io"]
 
-[ext_resource type="Script" uid="uid://dy6bfhgfrdbif" path="res://Jugador/jugador_mouse.gd" id="1_sikbv"]
-[ext_resource type="Texture2D" uid="uid://b5x2edhf0rq5y" path="res://Jugador/SpriteSheet Pj1.png" id="2_7ojjr"]
+[ext_resource type="Script" uid="uid://bpykunia71gq" path="res://Jugador/jugador_mouse.gd" id="1_sikbv"]
+[ext_resource type="Texture2D" uid="uid://dwnp125dotb0n" path="res://Jugador/SpriteSheet Pj1.png" id="2_7ojjr"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_e003d"]
 radius = 9.0
