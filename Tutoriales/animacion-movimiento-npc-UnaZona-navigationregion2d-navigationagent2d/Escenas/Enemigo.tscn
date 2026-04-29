@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://buqr038kfqa38"]
+
+[ext_resource type="Script" uid="uid://duduf6nknw0we" path="res://script/enemigo.gd" id="1_nxnwl"]
+[ext_resource type="SpriteFrames" uid="uid://d8af2rkssxak" path="res://Otros/Enemigo_1.tres" id="1_rh4lt"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_nxnwl"]
+radius = 13.0
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=2020263133]
+script = ExtResource("1_nxnwl")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=485651998]
+sprite_frames = ExtResource("1_rh4lt")
+animation = &"IzqDer"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1976538383]
+shape = SubResource("CircleShape2D_nxnwl")
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="." unique_id=2107859491]
